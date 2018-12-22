@@ -51,7 +51,7 @@ gulp.task("fa", function() {
 });
 
 gulp.task("build", function() {
-  return gulp.src("src/*").pipe(gulp.dest("dist"));
+  return gulp.src("src/**/*").pipe(gulp.dest("dist"));
 });
 
 gulp.task("default", ["js", "serve", "fa", "fonts"]);
