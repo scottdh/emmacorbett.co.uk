@@ -18,6 +18,12 @@ header.masthead {
       font-size: 2rem;
     }
   }
+  .profilePic {
+    height: 260px;
+    width: 260px;
+    border-radius: 100%;
+  }
+
   .bg-circle {
     z-index: 0;
     position: absolute;
@@ -52,14 +58,14 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
+    padding-top: calc(8rem + 55px);
     padding-bottom: 10rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 6rem;
+        font-size: 4rem;
       }
       .masthead-subheading {
-        font-size: 4rem;
+        font-size: 2rem;
       }
     }
   }
